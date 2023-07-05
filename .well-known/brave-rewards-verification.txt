@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: exabrial.github.io
+Token: 392d65abdf747d95d6f9ec7bd7c430c51ba534565becd76f587c19d58373cb73
