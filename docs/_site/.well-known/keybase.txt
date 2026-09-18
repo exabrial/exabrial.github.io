@@ -1,0 +1,64 @@
+==================================================================
+https://keybase.io/exabrial
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://exabrial.github.io
+  * I am exabrial (https://keybase.io/exabrial) on keybase.
+  * I have a public key with fingerprint 8716 38A2 1A7F 2C38 0664  7142 0306 A354 336B 4F0D
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0113ba661e3cf5436c19eca2dfd9d755202cd594ee904978ba6545bbc986271f26d90a",
+      "fingerprint": "871638a21a7f2c38066471420306a354336b4f0d",
+      "host": "keybase.io",
+      "key_id": "0306a354336b4f0d",
+      "kid": "0113ba661e3cf5436c19eca2dfd9d755202cd594ee904978ba6545bbc986271f26d90a",
+      "uid": "0bf5fbc52d245009bbb925f15efd9b00",
+      "username": "exabrial"
+    },
+    "service": {
+      "hostname": "exabrial.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1698685612,
+  "expire_in": 157680000,
+  "prev": "e6cae3d388fd5a28237e5f34bd74f79f66a1371e86bb8b1c951385bf9593f2e4",
+  "seqno": 136,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtUj1oFEEYvYuneAGNGEwnIdsoesT52ZmdORAJCKkCYjpBzpmdmcuQuHvu7p3G
+cFyKKIqFgoqVmEJF/MMELPxplEAEESIExcYiXcBakRBw1phGW6cZ5pv33vfex3dt
+x5ZCufdn8+3U3Pnvc8X3q7Kgj6y8mfJkrCa96pQ3rn9fekLpNKuNW+VVPQAhloJS
+qHFoiI9pCLkOBVJGcRUQggAKFeG+1hz4PGAOS3wiZcgZRQE0iCoOhFfxjI3qOmkk
+NsqcLAsgxUwgKAKDQswApX4AfQQwoAK7PphK3wDliGNxmjOcOSlSPWhjV3OP2oa9
+f/H/2XdzQ04aYmRIkEI+AYBLKTkiBhLt9CQAOTDVSSROa4fW54RMrJjw2hXPVVs2
+1Plg8yR/IQbrNhtryo1UjSTO4jCecP9jWdZIqzk/m2zkhLNa1v5I1aSNlJumY7R0
+kto48qrQIcPM5tqQugiMUIgqrk3DJrpmcwQJKAPu5H10K/dwioZCY4UZM4oIxBAO
+NDHYlyrwTcANpQLiAGpGpWQShpxAzIg0nHBskPa9PN2ZKHbimDqnou5UU1uPRNZM
+tNfuvnSzVOgtF/b2DZSef66u717ozN5YXJ7ZXMGtXfn+FbrLuzYrPVeKnaNLT3Ze
+Hz35ZV+75/gamnm0+vpqp3ihOVDve7i2rTZcWuif/3Dw1dORu0OfDqdLH6eL07dL
+XeLQ0Ivl4fKPoVvP0tml+QOjX49tHw+yB+8u9px4eefy/W+Lg+sjA/vvmdbjPf2/
+AA==
+=vTjh
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/exabrial
+
+==================================================================
+

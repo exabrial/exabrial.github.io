@@ -1,0 +1,7 @@
+<div class="title-block {{ include.class }}">
+	{% for cell in include.cells %}
+	<div class="title-block__cell">
+		<span class="title-block__key">{{ cell.key }}</span><br /> <span class="title-block__val">{{ cell.val }}</span>
+	</div>
+	{% endfor %}
+</div>

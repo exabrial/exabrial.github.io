@@ -1,0 +1,91 @@
+---
+layout: default
+title: "I got bored and finally made a website — exabrial"
+---
+<div class="page-wrap">
+<div class="sheet bg-grid-fine">
+
+	{% include nav-inner.html label="NOTE 001" %}
+
+	<div
+		class="content-max-wide pt-22"
+		style="max-width: 980px;">
+		<div class="blog-frame">
+
+			<article class="note-article">
+				<div
+					class="mono-label mono-label--gold mono-label--sm"
+					style="letter-spacing: .3em;">ENTRY 001 &middot; 2026-09-17 &middot; KANSAS CITY</div>
+				<h1 class="note-article__title anim-ink">I got bored and finally made a website</h1>
+				<div class="note-article__rule">
+					<div class="note-article__rule-line anim-rule"></div>
+					<span
+						class="hero__tagline"
+						style="font-size: 10.5px;">REV A &middot; 2 MIN READ</span>
+				</div>
+
+				<p class="lead">Eighty-nine repositories. Four hundred stars. Twenty-odd years of shipping Java that other people&rsquo;s
+					builds quietly depend on. And until today, the only thing on the internet with my name on it was a GitHub profile and a WordPress
+					blog whose password I genuinely do not remember.</p>
+
+				<p>So: here is a website. I got bored, which is historically how all of my projects begin.</p>
+
+				<p>It looks like a shop drawing because that is how my head is organized. Parts, tolerances, revision history, a title block in
+					the corner telling you who drew the thing and at what scale. I like engineering of every flavor &mdash; mechanical, civil, the
+					kind with grease on it &mdash; and a blueprint is the most honest document in the world. It does not sell you anything. It just
+					tells you exactly what the part is and how much slop is allowed.</p>
+
+				<blockquote>Software could use more of that. Fewer landing pages, more datasheets.</blockquote>
+
+				<h2>What&rsquo;s actually on here</h2>
+				<p>
+					Two things I care about most got real write-ups. <a href="{{ '/#parts' | relative_url }}">petrify</a> compiles ML models &mdash;
+					ONNX, XGBoost, LightGBM, scikit-learn &mdash; straight into JVM bytecode, so inference is just comparisons and jumps instead of an
+					interpreter dragging a 150MB native library around. <a href="{{ '/#parts' | relative_url }}">locksmith</a> is a Maven extension
+					that pulls your secrets out of the macOS Keychain instead of a plaintext
+					<code>settings.xml</code>
+					that we all pretend is fine.
+				</p>
+				<p>The rest of the repositories are pulled live off the GitHub API into a bill of materials, because maintaining a list by hand
+					is how lists become lies.</p>
+
+				<h2>What goes here next</h2>
+				<p>Bytecode notes, mostly. How petrify lays a tree ensemble into the constant pool. Why the JDK 25 Class-File API made the
+					whole compiler about a third the size it used to be. Maven extension internals, which are documented approximately nowhere. And
+					occasionally a trail report, because I test my gear the hard way and the ivy around here holds a grudge.</p>
+				<p>No schedule. No newsletter. No cookie banner. Just notes, filed as I make them.</p>
+
+				<div class="note-article__footer-links">
+					<a
+						href="{{ '/blog.html' | relative_url }}"
+						class="btn btn--outline">&larr; ALL FIELD NOTES</a> <a
+						href="https://github.com/exabrial/petrify"
+						class="btn btn--primary">STAR PETRIFY &nearr;</a>
+				</div>
+			</article>
+
+			<div class="title-block title-block--narrow">
+				<div class="title-block__cell">
+					<span class="title-block__key">WRITTEN BY</span><br />
+					<span class="title-block__val">J. FISHER</span>
+				</div>
+				<div class="title-block__cell">
+					<span class="title-block__key">ENTRY</span><br />
+					<span class="title-block__val">001</span>
+				</div>
+				<div class="title-block__cell">
+					<span class="title-block__key">FILED</span><br />
+					<span class="title-block__val">2026-09-17</span>
+				</div>
+				<div class="title-block__cell">
+					<span class="title-block__key">REV</span><br />
+					<span class="title-block__val">A</span>
+				</div>
+			</div>
+
+		</div>
+		{% include copyright.html extra='<a href="/">← BACK TO SHEET 001</a>' %}
+	</div>
+
+</div>
+</div>

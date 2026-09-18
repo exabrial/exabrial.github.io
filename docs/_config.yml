@@ -1,1 +1,14 @@
+title: "Jonathan S. Fisher — exabrial"
+description: "JVM internals, build tooling, and Java EE plumbing"
+url: "https://exabrial.github.io"
+baseurl: ""
+
 include: [".well-known"]
+
+github_username: exabrial
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"

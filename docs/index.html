@@ -1,0 +1,268 @@
+---
+layout: default
+title: "Jonathan S. Fisher — exabrial"
+---
+<div class="page-wrap">
+	<div class="sheet bg-grid-coarse">
+
+		{% include nav-index.html %}
+
+		<div
+			id="top"
+			class="content-max hero">
+			<div style="min-width: 0; flex: 2;">
+				<div
+					class="mono-label mono-label--sm"
+					style="margin-bottom: 14px;">ASSEMBLY 01 &mdash; OPERATOR</div>
+				<h1 class="hero__name">
+					Jonathan<br />S. Fisher
+				</h1>
+				<div class="hero__rule">
+					<div class="hero__rule-line"></div>
+					<span class="hero__tagline">JVM &middot; BYTECODE &middot; TOLERANCE &plusmn;0.1m</span>
+				</div>
+				<p class="hero__bio">Kansas City. I write Java and mess with the JVM. Regularly crash bicycles into pissed off ivy. Probably outside rock climbing right now.</p>
+			</div>
+			<div class="hero__avatar-wrap">
+				<div class="hero__avatar-frame">
+					<img
+						src="{{ '/assets/img/avatar.jpg' | relative_url }}"
+						alt="Jonathan S. Fisher" />
+				</div>
+				<div class="hero__avatar-caption">
+					FIG 1. OPERATOR<br />AS-BUILT, 2026
+				</div>
+			</div>
+		</div>
+
+		<!-- PART A + B -->
+		<div
+			id="parts"
+			class="content-max pt-20">
+			<div class="cards-grid">
+				<a
+					href="https://github.com/exabrial/petrify"
+					class="project-card">
+					<div class="project-card__header">
+						<span>PART&nbsp;A</span><span id="stars-petrify">&starf;17</span>
+					</div>
+					<div class="project-card__name">petrify</div>
+					<div class="project-card__desc">Compile ONNX / XGBoost / LightGBM decision trees straight to JVM bytecode, no interpreter.</div>
+					<div class="project-card__spec">
+						<div class="project-card__spec-content">
+							MAT&nbsp;&nbsp;JAVA&nbsp;&nbsp;&middot;&nbsp;&nbsp;FINISH&nbsp;&nbsp;CLASS-FILE API<br />COMPILER&nbsp;&nbsp;JDK25&nbsp;&nbsp;&middot;&nbsp;&nbsp;RUNTIME&nbsp;&nbsp;JDK17+<br />QTY&nbsp;&nbsp;1&nbsp;&nbsp;&middot;&nbsp;&nbsp;REV&nbsp;&nbsp;1.5.0
+						</div>
+					</div>
+				</a> <a
+					href="https://github.com/exabrial/locksmith"
+					class="project-card">
+					<div class="project-card__header">
+						<span>PART&nbsp;B</span><span id="stars-locksmith">&starf;6</span>
+					</div>
+					<div class="project-card__name">locksmith</div>
+					<div class="project-card__desc">Maven extension that pulls secrets from the macOS Keychain or a Unix socket.</div>
+					<div class="project-card__spec">
+						<div class="project-card__spec-content">
+							MAT&nbsp;&nbsp;JAVA&nbsp;&nbsp;&middot;&nbsp;&nbsp;FINISH&nbsp;&nbsp;MAVEN EXT<br />SOURCES&nbsp;&nbsp;KEYCHAIN &middot; UNIX
+							SOCKET<br />QTY&nbsp;&nbsp;1
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+
+		<!-- PART C + D -->
+		<div class="content-max mt-18">
+			<div class="cards-grid">
+				<a
+					href="https://github.com/exabrial/mockito-object-injection"
+					class="project-card">
+					<div class="project-card__header">
+						<span>PART&nbsp;C</span><span id="stars-mockito-object-injection">&starf;8</span>
+					</div>
+					<div class="project-card__name project-card__name--sm">mockito-object-injection</div>
+					<div class="project-card__desc">Inject Strings and plain objects into JUnit5 mocks. Probably solves most of your problems.</div>
+					<div class="project-card__spec">
+						<div class="project-card__spec-content">
+							MAT&nbsp;&nbsp;JAVA&nbsp;&nbsp;&middot;&nbsp;&nbsp;FINISH&nbsp;&nbsp;JUNIT5 EXT<br />QTY&nbsp;&nbsp;1
+						</div>
+					</div>
+				</a> <a
+					href="https://github.com/exabrial/redex-sm"
+					class="project-card">
+					<div class="project-card__header">
+						<span>PART&nbsp;D</span><span id="stars-redex-sm">&starf;4</span>
+					</div>
+					<div class="project-card__name">redex-sm</div>
+					<div class="project-card__desc">A better distributed Tomcat SessionManager backed by Redis, with native encryption support.</div>
+					<div class="project-card__spec">
+						<div class="project-card__spec-content">
+							MAT&nbsp;&nbsp;JAVA&nbsp;&nbsp;&middot;&nbsp;&nbsp;FINISH&nbsp;&nbsp;TOMCAT SESSION MGR<br />STORE&nbsp;&nbsp;REDIS /
+							JEDIS&nbsp;&nbsp;&middot;&nbsp;&nbsp;QTY&nbsp;&nbsp;1
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+
+		<!-- Blog banner + stats -->
+		<div class="content-max pt-22">
+			<div
+				class="cards-grid"
+				style="align-items: stretch;">
+				<a
+					href="{{ '/blog.html' | relative_url }}"
+					class="blog-banner"> <span style="min-width: 0;"> <span
+						class="section-tag section-tag--gold"
+						style="display: block;">SHEET 02 &mdash; FIELD NOTES</span> <span
+						style="display: block; font-size: 24px; font-weight: 600; color: var(--white); text-transform: uppercase; margin-top: 7px;">The
+							blog &middot; read the entries</span>
+				</span> <span class="blog-banner__count"> <span class="blog-banner__count-num">01</span> <span
+						class="mono-label--xs"
+						style="display: block; font-size: 9px; font-weight: 600; letter-spacing: .18em; margin-top: 5px;">ENTRIES ISSUED</span>
+				</span>
+				</a>
+				<div class="stats-box">
+					<div class="stats-box__grid">
+						<div class="stats-box__cell stats-box__cell--br stats-box__cell--bb">
+							REPOS<br /> <b
+								class="stats-box__val"
+								id="stat-repos">89</b>
+						</div>
+						<div class="stats-box__cell stats-box__cell--bb">
+							STARS<br /> <b
+								class="stats-box__val"
+								id="stat-stars">80</b>
+						</div>
+						<div class="stats-box__cell stats-box__cell--br">
+							SCALE<br /> <b class="stats-box__val">1:1</b>
+						</div>
+						<div class="stats-box__cell">
+							SHEET<br /> <b class="stats-box__val">1 OF 2</b>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Contact -->
+		<div
+			id="contact"
+			class="content-max pt-22">
+			<div class="contact-box">
+				<div style="min-width: 0;">
+					<div class="section-tag section-tag--gold">SECTION 03 &mdash; REQUEST FOR QUOTE</div>
+					<div class="contact-box__title">Hire the shop</div>
+					<div class="contact-box__desc">Financial, Credit, Underwriting experience, MySQL, JVM internals, build tooling, Java EE
+						plumbing, modern Java. If it compiles, runs hot, and nobody else wants to touch it &mdash; let&rsquo;s talk.</div>
+				</div>
+				<div class="contact-box__links">
+					<a
+						href="https://www.linkedin.com/in/jonathansfisher/"
+						class="btn btn--primary">LINKEDIN &nearr;</a> <a
+						href="https://github.com/exabrial"
+						class="btn btn--outline">GITHUB &nearr;</a> <a
+						href="{{ '/blog.html' | relative_url }}"
+						class="btn btn--gold">FIELD NOTES &rarr;</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- Field testing photos -->
+		<div
+			class="content-max"
+			style="padding-top: 26px;">
+			<div
+				style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; border-top: 1px solid var(--border-blue-faint); padding-top: 9px;">
+				<span
+					class="mono-label--xs"
+					style="font-weight: 600; letter-spacing: .26em;">SECTION 04 &mdash; FIELD TESTING</span> <span
+					class="mono-label--xs"
+					style="font-size: 9px; letter-spacing: .14em;">DESTRUCTIVE &middot; OPERATOR SUPPLIED</span>
+			</div>
+			<div class="plates-grid">
+				<div class="plate">
+					<div class="plate__frame">
+						<img
+							src="{{ '/assets/img/plate-jump.jpg' | relative_url }}"
+							alt="Jumping a mountain bike in Bentonville" />
+						<div class="plate__label">PL 1</div>
+					</div>
+					<div class="plate__caption">
+						BALLISTIC TEST, BENTONVILLE.<br />LANDING GEAR VERIFIED.<br />PRIDE JETTISONED NEXT CRASH.
+					</div>
+				</div>
+				<div class="plate">
+					<div class="plate__frame">
+						<img
+							src="{{ '/assets/img/plate-unbound.jpg' | relative_url }}"
+							alt="Finishing Garmin Unbound gravel race"
+							style="object-position: 50% 35%;" />
+						<div class="plate__label">PL 2</div>
+					</div>
+					<div class="plate__caption">
+						ENDURANCE RUN, GARMIN UNBOUND.<br />SPECIMEN FINISHED. BARELY.<br /> PLACE? 610th.
+					</div>
+				</div>
+				<div class="plate">
+					<div class="plate__frame">
+						<img
+							src="{{ '/assets/img/plate-climb.jpg' | relative_url }}"
+							alt="Climbing an overhung sandstone route" />
+						<div class="plate__label">PL 3</div>
+					</div>
+					<div class="plate__caption">
+						TENSILE TEST, ARKANSAS SANDSTONE.<br />CLIMBER RATING: ABSOLUTELY AVERAGE.
+					</div>
+				</div>
+				<div class="plate">
+					<div class="plate__frame">
+						<img
+							src="{{ '/assets/img/plate-redrock.jpg' | relative_url }}"
+							alt="Standing on slickrock in the desert" />
+						<div class="plate__label">PL 4</div>
+					</div>
+					<div class="plate__caption">
+						SITE SURVEY, DESERT SANDSTONE, RED ROCKS.<br />DID NOTHING IN VEGAS THAT ONE DOES IN VEGAS. IDYLLIC.
+					</div>
+				</div>
+				<div class="plate">
+					<div class="plate__frame">
+						<img
+							src="{{ '/assets/img/plate-alps.jpg' | relative_url }}"
+							alt="On a via ferrata ridge" />
+						<div class="plate__label">PL 5</div>
+					</div>
+					<div class="plate__caption">
+						LOCATION: INNSBRUCK VIA FERRATA, HIGH EXPOSURE.<br />SAFETY FACTOR: SINGLE CABLE, OPTIMISM.
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer title block -->
+		<div
+			class="content-max"
+			style="padding-top: 18px;">
+			<div class="title-block">
+				<div class="title-block__cell">
+					<span class="title-block__key">DRAWN BY</span><br /> <span class="title-block__val">J. FISHER</span>
+				</div>
+				<div class="title-block__cell">
+					<span class="title-block__key">LOCATION</span><br /> <span class="title-block__val">KANSAS CITY</span>
+				</div>
+				<div class="title-block__cell">
+					<span class="title-block__key">SCALE</span><br /> <span class="title-block__val">1:1</span>
+				</div>
+				<div class="title-block__cell">
+					<span class="title-block__key">REV</span><br /> <span class="title-block__val">C</span>
+				</div>
+				<div class="title-block__cell">
+					<span class="title-block__key">SHEET</span><br /> <span class="title-block__val">1 OF 2</span>
+				</div>
+			</div>
+			{% include copyright.html extra="DRAWING NOT TO SCALE &middot; DO NOT SCALE THE DRAWING" %}
+		</div>
+
+	</div>
+</div>

@@ -1,0 +1,4 @@
+This is a Brave Creators publisher verification file.
+
+Domain: exabrial.github.io
+Token: d797cd1e386d14553dcbd91b199709475c7c484c13bbfa3f9381cdee0a9d8db9

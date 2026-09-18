@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html
+	xmlns="http://www.w3.org/1999/xhtml"
+	xml:lang="en"
+	lang="en">
+<head>
+<meta charset="utf-8" />
+<meta
+	name="viewport"
+	content="width=device-width, initial-scale=1" />
+<title>{{ page.title | default: site.title }}</title>
+<link
+	rel="preconnect"
+	href="https://fonts.googleapis.com" />
+<link
+	rel="preconnect"
+	href="https://fonts.gstatic.com"
+	crossorigin="crossorigin" />
+<link
+	href="https://fonts.googleapis.com/css2?family=Saira:wght@300;400;500;600&amp;family=Saira+Condensed:wght@400;500;600;700&amp;family=IBM+Plex+Mono:wght@400;500;600&amp;display=swap"
+	rel="stylesheet" />
+<link
+	rel="stylesheet"
+	href="{{ '/assets/css/main-1.0.0.css' | relative_url }}" />
+</head>
+<body>
+	{{ content }}
+	<script src="{{ '/assets/js/github-stats-1.0.0.js' | relative_url }}"></script>
+</body>
+</html>
