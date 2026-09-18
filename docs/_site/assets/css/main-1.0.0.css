@@ -172,7 +172,7 @@ img {
 }
 
 .hero {
-	padding: 38px 0 12px;
+	padding: 38px 35px 12px;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 	gap: 32px;
